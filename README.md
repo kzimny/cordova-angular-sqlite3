@@ -141,3 +141,7 @@ Change base path in src/index.html file to:
 Start your Android emulator
 
 Run `npm run build-run-android`
+
+Finally the app should work as follow:
+
+![Alt Text](https://github.com/kzimny/cordova-angular-sqlite3/blob/master/20190603_145238.gif)
