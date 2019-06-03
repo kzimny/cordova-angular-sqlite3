@@ -10,6 +10,10 @@ Run `npm install cordova -g`
 
 Run `git clone https://github.com/kzimny/cordova-angular-sqlite3.git`
 
+Run `npm install`
+
+Add folders: hooks, plugins, platforms and www
+
 Run `cordova platform add android`
 
 Run `npm run build-run-android`
