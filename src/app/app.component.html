@@ -1,0 +1,16 @@
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
+    <button (click)="addUser()">Add user</button>
+    <button (click)="deleteAllUsers()">Delete all users</button>
+    <button (click)="getUsers()">Get users</button>
+    <h2>{{ userList.length }} users found. </h2>
+    <div>
+        <ul style="list-style-type: none;">
+            <li *ngFor="let user of userList">
+                {{ user.ID_User }}. {{ user.FirstName }} {{ user.LastName }}
+            </li>
+        </ul>
+    </div>
+</div>
